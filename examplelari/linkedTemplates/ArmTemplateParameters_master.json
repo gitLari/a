@@ -17,6 +17,9 @@
 		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase99_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
