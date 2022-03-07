@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_bbd",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_bbdOOOO",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2022-03-07T13:40:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
