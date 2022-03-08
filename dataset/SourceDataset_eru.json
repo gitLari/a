@@ -1,0 +1,32 @@
+{
+	"name": "SourceDataset_eru",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage0",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "inputEmpOma.txt",
+				"container": "larmanblog"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			}
+		]
+	}
+}
