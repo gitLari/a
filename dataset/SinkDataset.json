@@ -1,0 +1,23 @@
+{
+	"name": "SinkDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "@CONCAT('Incremental-', pipeline().RunId, '.txt')",
+				"folderPath": "incrementalcopy",
+				"container": "larmanstorage/incrementalcopy. adftutorial"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
