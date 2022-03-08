@@ -920,16 +920,19 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Day",
-						"interval": 15,
-						"startTime": "2022-03-08T05:48:00Z",
+						"frequency": "Month",
+						"interval": 1,
+						"startTime": "2022-03-08T05:53:00Z",
 						"timeZone": "UTC",
 						"schedule": {
 							"minutes": [
 								0
 							],
 							"hours": [
-								8
+								6
+							],
+							"monthDays": [
+								1
 							]
 						}
 					}
