@@ -23,7 +23,13 @@
 		"AzureSqlDatabase99_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseOma_connectionString": {
+			"value": ""
+		},
+		"AzureStorageLinkedService_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
