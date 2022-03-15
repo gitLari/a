@@ -1,0 +1,10 @@
+{
+	"name": "powerquery1",
+	"properties": {
+		"description": "Power query testailu\n",
+		"type": "WranglingDataFlow",
+		"typeProperties": {
+			"sources": []
+		}
+	}
+}
